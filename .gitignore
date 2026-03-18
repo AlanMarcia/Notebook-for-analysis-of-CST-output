@@ -1,0 +1,26 @@
+# Ignore everything by default
+*
+
+# Keep directories traversable so negation rules can work
+!*/
+
+# Keep this file
+!.gitignore
+
+# Executable/source files to keep in git
+!*.ipynb
+!*.py
+!*.ps1
+!*.bat
+!*.cmd
+!*.sh
+
+# Project metadata/docs often needed to run or reproduce
+!README*
+!*.md
+!requirements*.txt
+!pyproject.toml
+!setup.py
+!environment.yml
+!Pipfile
+!Pipfile.lock
